@@ -24,7 +24,7 @@ class SplashActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
-        }, 1000L+ Random.nextLong(3000))
+        }, 1000L+ Random.nextLong(1000))
     }
     private var doubleBackToExitPressedOnce = false
 

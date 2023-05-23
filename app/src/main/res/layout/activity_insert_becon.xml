@@ -7,7 +7,7 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg"
+    android:background="@drawable/background"
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
@@ -18,6 +18,7 @@
         android:src="@drawable/logo" />
 
     <EditText
+        android:elevation="20dp"
         android:gravity="center"
         android:layout_marginTop="70dp"
         android:layout_width="300dp"
@@ -27,11 +28,12 @@
         />
 
     <Button
-        android:layout_marginTop="30dp"
+        android:elevation="20dp"
         android:layout_width="200dp"
         android:layout_height="80dp"
-        android:text="시작하기"
+        android:layout_marginTop="30dp"
         android:background="@drawable/button_bg"
+        android:text="시작하기"
         android:textColor="@color/bg"
         android:textSize="40dp"
         android:textStyle="bold" />

@@ -47,4 +47,10 @@ dependencies {
 
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    implementation 'com.squareup.okhttp3:okhttp:4.9.3'
+
+    //스와이프
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+
 }

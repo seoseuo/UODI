@@ -1,153 +1,171 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
 
-    android:layout_width="match_parent"
+    android:id="@+id/swipeRefreshLayout"
     android:layout_height="match_parent"
-    android:background="@color/bg"
-    android:gravity="center_horizontal"
-    android:orientation="vertical">
+    android:layout_width="match_parent"
+    >
 
-    <com.google.android.material.appbar.AppBarLayout
+        <LinearLayout
+
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:elevation="0dp"
-        android:id="@+id/appbar"
-        >
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:elevation="0dp"
+            android:id="@+id/appbar"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/toolbarColor">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:layout_width="300dp"
+                    android:layout_height="?attr/actionBarSize"
+                    android:id="@+id/toolbar"
+                    />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/logo1"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+        </com.google.android.material.appbar.AppBarLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <androidx.appcompat.widget.Toolbar
-                android:layout_width="300dp"
-                android:layout_height="?attr/actionBarSize"
-                android:id="@+id/toolbar"
-                 />
+            android:layout_gravity="center_horizontal"
+            >
 
             <ImageView
-                android:layout_width="50dp"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:src="@drawable/logo1"/>
-
-        </LinearLayout>
-    </com.google.android.material.appbar.AppBarLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        >
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:src="@drawable/top_title"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_marginTop="20dp"
-        android:layout_width="300dp"
-        android:layout_height="200dp"
-        android:orientation="vertical"
-        android:gravity="center_horizontal"
-        android:background="@drawable/button_bg">
-
-
-
-        <TextView
-            android:textColor="@color/bg"
-            android:layout_marginTop="30dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="고객님이 계신 구역은"
-            android:textSize="30dp"
-            android:textStyle="bold"/>
-
-        <TextView
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="A-7"
-            android:textColor="#EC8888"
-            android:textSize="50dp"
-            android:textStyle="bold"/>
-
-        <TextView
-            android:textColor="@color/bg"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="구역입니다."
-            android:textSize="30dp"
-            android:textStyle="bold"/>
-
-    </LinearLayout>
-
-    <GridLayout
-        android:layout_marginTop="20dp"
-        android:layout_width="300dp"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:gravity="center_horizontal">
-
-        <LinearLayout
-            android:id="@+id/around"
-            android:layout_width="140dp"
-            android:layout_height="170dp"
-            android:orientation="vertical"
-            android:gravity="center_horizontal"
-            android:background="@drawable/button_bg">
-
-            <TextView
-                android:textColor="@color/bg"
-                android:layout_marginTop="10dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="주변매장\n둘러보기"
-                android:textSize="25dp"
-                android:textStyle="bold"/>
-
-            <TextView
-                android:textColor="@color/bg"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="🔎"
-                android:textSize="60dp"
-                android:textStyle="bold"/>
-
+                android:src="@drawable/top_title"/>
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/coupon"
-            android:layout_marginLeft="20dp"
-            android:layout_width="140dp"
-            android:layout_height="170dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
             android:orientation="vertical"
             android:gravity="center_horizontal"
-            android:background="@drawable/button_bg">
+            android:background="@drawable/button_bg"
+            android:elevation="20dp"
+            >
+
+
 
             <TextView
                 android:textColor="@color/bg"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="30dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="사용가능\n쿠폰보기"
-                android:textSize="25dp"
+                android:text="고객님이 계신 구역은"
+                android:textSize="30dp"
                 android:textStyle="bold"/>
 
             <TextView
+                android:id="@+id/section"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#EC8888"
+                android:textSize="50dp"
+                android:textStyle="bold"/>
+
+            <TextView
+
                 android:textColor="@color/bg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="🔖"
-                android:textSize="60dp"
+                android:text="구역입니다."
+                android:textSize="30dp"
                 android:textStyle="bold"/>
 
         </LinearLayout>
 
-    </GridLayout>
-</LinearLayout>
+        <GridLayout
+            android:layout_marginTop="25dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+
+            <LinearLayout
+                android:elevation="10dp"
+                android:id="@+id/around"
+                android:layout_width="140dp"
+                android:layout_height="170dp"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:background="@drawable/button_bg">
+
+                <TextView
+                    android:textColor="@color/bg"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="주변매장\n둘러보기"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:textColor="@color/bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🔎"
+                    android:textSize="60dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:elevation="10dp"
+                android:id="@+id/coupon"
+                android:layout_marginLeft="20dp"
+                android:layout_width="140dp"
+                android:layout_height="170dp"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:background="@drawable/button_bg">
+
+                <TextView
+                    android:textColor="@color/bg"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="사용가능\n쿠폰보기"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:textColor="@color/bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🔖"
+                    android:textSize="60dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </GridLayout>
+
+
+    </LinearLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

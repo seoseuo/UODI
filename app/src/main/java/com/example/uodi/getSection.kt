@@ -9,7 +9,7 @@ import okhttp3.Request
 class getSection : AsyncTask<Void, Void, String?>() {
     override fun doInBackground(vararg params: Void?): String? {
         val client = OkHttpClient()
-        val url = "http://210.115.227.109/phpmyadmin/UU/getSection.php"
+        val url = "http://IPAddress/phpmyadmin/UU/getSection.php"
         val request = Request.Builder()
             .url(url)
             .build()
@@ -28,7 +28,7 @@ class getSection : AsyncTask<Void, Void, String?>() {
 class getTime : AsyncTask<Void, Void, String?>() {
     override fun doInBackground(vararg params: Void?): String? {
         val client = OkHttpClient()
-        val url = "http://210.115.227.109/phpmyadmin/UU/getTime.php"
+        val url = "http://IPAddress/phpmyadmin/UU/getTime.php"
         val request = Request.Builder()
             .url(url)
             .build()

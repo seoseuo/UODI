@@ -53,26 +53,21 @@
     <LinearLayout
         android:layout_marginTop="5dp"
         android:layout_width="300dp"
-        android:layout_height="110dp"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center_horizontal"
         android:background="@drawable/button_bg"
         android:elevation="20dp">
 
-        <TextView
-            android:id="@+id/couponSection"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:textColor="#EC8888"
-            android:textSize="50dp"
-            android:textStyle="bold"/>
+
 
         <TextView
             android:textColor="@color/bg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="구역에서 사용 가능한 쿠폰"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="고객님께서 매장에서\n사용 가능하신 쿠폰"
             android:textSize="25dp"
             android:textStyle="bold"/>
     </LinearLayout>
@@ -83,163 +78,6 @@
         android:layout_marginBottom="30dp"
         android:layout_height="5dp"
         android:background="@drawable/background"/>
-
-    <androidx.cardview.widget.CardView
-        xmlns:tools="http://schemas.android.com/tools"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_gravity="center_horizontal"
-        android:id="@+id/coupon_view"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-
-        app:cardCornerRadius="12dp"
-        app:cardElevation="3dp"
-        app:contentPadding="5dp">
-
-        <LinearLayout
-
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:orientation="horizontal"
-            >
-
-            <TextView
-                android:layout_marginLeft="20dp"
-                android:layout_width="180dp"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:textSize="25dp"
-                android:textColor="@color/bg"
-                android:text="컨버스 30% 할인"
-                android:layout_gravity="center_vertical"
-                />
-
-            <TextView
-                android:gravity="center"
-                android:layout_marginLeft="20dp"
-                android:layout_width="90dp"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:textSize="35dp"
-                android:textColor="@color/white"
-                android:background="@drawable/button2_bg"
-                android:text="사용"
-                android:id="@+id/use"
-                android:layout_gravity="center"
-                />
-        </LinearLayout>
-
-    </androidx.cardview.widget.CardView>
-
-
-
-    <androidx.cardview.widget.CardView
-        xmlns:tools="http://schemas.android.com/tools"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_gravity="center_horizontal"
-
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-
-        app:cardCornerRadius="12dp"
-        app:cardElevation="3dp"
-        app:contentPadding="5dp">
-
-        <LinearLayout
-
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:orientation="horizontal"
-            >
-
-            <TextView
-                android:layout_marginLeft="20dp"
-                android:layout_width="180dp"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:textSize="25dp"
-                android:textColor="@color/bg"
-                android:text="아웃백 프렌치 \n프라이 서비스"
-                android:layout_gravity="center_vertical"
-                />
-
-            <TextView
-                android:gravity="center"
-                android:layout_marginLeft="20dp"
-                android:layout_width="90dp"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:textSize="35dp"
-                android:textColor="@color/white"
-                android:background="@drawable/button2_bg"
-                android:text="사용"
-
-                android:layout_gravity="center"
-                />
-        </LinearLayout>
-
-    </androidx.cardview.widget.CardView>
-
-
-
-    <androidx.cardview.widget.CardView
-        xmlns:tools="http://schemas.android.com/tools"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_gravity="center_horizontal"
-
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-
-        app:cardCornerRadius="12dp"
-        app:cardElevation="3dp"
-        app:contentPadding="5dp">
-
-        <LinearLayout
-
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:orientation="horizontal"
-            >
-
-            <TextView
-                android:layout_marginLeft="20dp"
-                android:layout_width="180dp"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:textSize="25dp"
-                android:textColor="@color/bg"
-                android:text="아웃백 20%할인"
-                android:layout_gravity="center_vertical"
-                />
-
-            <TextView
-                android:gravity="center"
-                android:layout_marginLeft="20dp"
-                android:layout_width="90dp"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:textSize="35dp"
-                android:textColor="@color/white"
-                android:background="@drawable/button2_bg"
-                android:text="사용"
-
-                android:layout_gravity="center"
-                />
-        </LinearLayout>
-
-    </androidx.cardview.widget.CardView>
-
-
-
-
-
-
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerviewCoupon"

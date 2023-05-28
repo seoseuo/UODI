@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:elevation="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/converse_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="CONVERSE"
+            android:textColor="@color/bg"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_height="5dp"
+        android:background="@drawable/background"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="3dp"
+        app:contentPadding="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="MOST POPULAR"
+                android:textColor="@color/bg"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+
+                    android:layout_width="160dp"
+                    android:layout_height="250dp"
+                    android:orientation="vertical"
+                    tools:ignore="MissingDefaultResource">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/cv_allstar" />
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:textColor="@color/bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textStyle="bold"
+                        android:text="척테일러 올스타"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/toolbarColor"
+                        android:text="컨스트럭트 블랙"/>
+
+                    <TextView
+
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/bg"
+                        android:text="95,000 KRW"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                    android:layout_width="160dp"
+                    android:layout_height="250dp"
+                    android:orientation="vertical"
+                    tools:ignore="MissingDefaultResource">
+
+                    <ImageView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/cv_pach"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:textColor="@color/bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textStyle="bold"
+                        android:text="척70 패치워크"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/toolbarColor"
+                        android:text="플로럴 에그렛"/>
+
+                    <TextView
+
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/bg"
+                        android:text="99,000 KRW"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                    android:layout_width="160dp"
+                    android:layout_height="250dp"
+                    android:orientation="vertical"
+                    tools:ignore="MissingDefaultResource">
+
+                    <ImageView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/cu_70d"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:textColor="@color/bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textStyle="bold"
+                        android:text="척 70 데님"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/toolbarColor"
+                        android:text="레더 네이비"/>
+
+                    <TextView
+
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/bg"
+                        android:text="105,000 KRW"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                    android:layout_width="160dp"
+                    android:layout_height="250dp"
+                    android:orientation="vertical"
+                    tools:ignore="MissingDefaultResource">
+
+                    <ImageView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/cv_pach"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:textColor="@color/bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textStyle="bold"
+                        android:text="스니커즈 패치"
+                        android:textSize="17dp"/>
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/toolbarColor"
+                        android:text="스웨트 라이트바이올렛"/>
+
+                    <TextView
+
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/bg"
+                        android:text="79,000 KRW"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="컨버스 데이 할인"
+                    android:textColor="@color/bg"
+                    android:textSize="30dp"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        xmlns:tools="http://schemas.android.com/tools"
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                        android:layout_width="160dp"
+                        android:layout_height="250dp"
+                        android:orientation="vertical"
+                        tools:ignore="MissingDefaultResource">
+
+                        <ImageView
+                            android:layout_marginTop="15dp"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/cv_patten"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:layout_marginHorizontal="10dp"
+                            android:textColor="@color/bg"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textStyle="bold"
+                            android:text="페턴 스트라이프"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:textColor="@color/toolbarColor"
+                            android:text="엣지 백팩 아쿠아미스트"/>
+
+                        <TextView
+
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:textColor="@color/bg"
+                            android:text="20% -> 59,000 KRW"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        xmlns:tools="http://schemas.android.com/tools"
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                        android:layout_width="160dp"
+                        android:layout_height="250dp"
+                        android:orientation="vertical"
+                        tools:ignore="MissingDefaultResource">
+
+                        <ImageView
+                            android:layout_marginTop="15dp"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/cv_pokect"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:layout_marginHorizontal="10dp"
+                            android:textColor="@color/bg"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textStyle="bold"
+                            android:text="클라우드 포켓"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:textColor="@color/toolbarColor"
+                            android:text="그래픽 티셔츠 화이트"/>
+
+                        <TextView
+
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:textColor="@color/bg"
+                            android:text="15% -> 65,000 KRW"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+

@@ -4,9 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.MenuItem
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.uodi.databinding.ActivityAroundBinding
 
@@ -15,6 +13,7 @@ class AroundActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         Log.d("seo","주변 매장 정보 액티비티")
+
 
         val binding = ActivityAroundBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -27,6 +26,8 @@ class AroundActivity : AppCompatActivity() {
         val receivedIntent = intent
         if (receivedIntent != null) {
             section = receivedIntent.getStringExtra("section").toString()
+            Log.d("section","From StoreAct $section")
+
             if (section != null) {
                 binding.aroundSection.text = section
             }
@@ -45,30 +46,48 @@ class AroundActivity : AppCompatActivity() {
                     R.drawable.seolhall,
                     R.drawable.starbuckshall,
                 )
-                contents2 = mutableListOf("NIKE", "설하수", "STARBUCKS")
-                contents3 = mutableListOf("나이키 매장 입니다.", "설하수 매장 입니다.", "스타벅스 매장입니다.")
+                contents2 = mutableListOf(
+                    "NIKE",
+                    "설화수",
+                    "STARBUCKS",)
+
+                contents3 = mutableListOf(
+                    "JUST DO IT, NIKE 매장입니다.",
+                    "혁신적인 한방 피부 과학, 설화수 매장입니다. ",
+                    "다국적 글로벌 최대 카페, STARBUCKS 매장입니다.")
                 contents4 = mutableListOf("0", "1", "2")
             }
             "B-0" -> {
                 contents1 = mutableListOf(
                     R.drawable.conversehall,
-                    R.drawable.outback
+                    R.drawable.osh,
+                    R.drawable.tissohall
                 )
-                contents2 = mutableListOf("컨버스", "아웃백")
-                contents3 = mutableListOf("컨버스 매장 입니다", "아웃백 매장입니다.")
-                contents4 = mutableListOf("3", "4")
+                contents2 = mutableListOf(
+                    "CONVERSE",
+                    "오설록",
+                    "클래식 시계 매장")
+
+                contents3 = mutableListOf(
+                    "스니커즈 문화의 아이콘, CONVERSE 매장입니다.",
+                    "차와 제주가 선사하는 가치 있는 쉼터\n오설록 매장입니다.",
+                    "Tisso , Hamilton 등 명품 클래식 시계 매장입니다.")
+
+                contents4 = mutableListOf("3","4", "5")
             }
             "C-0" -> {
                 contents1 = mutableListOf(
-                    R.drawable.tissohall
+                    R.drawable.er
                 )
-                contents2 = mutableListOf("tisso")
-                contents3 = mutableListOf("티쏘 매장입니다.")
-                contents4 = mutableListOf("5")
+                contents2 = mutableListOf("추가 예정입니다.")
+                contents3 = mutableListOf(
+                    "C-0 구역 매장 추가 예정입니다.")
+                contents4 = mutableListOf("7")
             }
             else -> {
                 contents1 = mutableListOf(
-                    R.drawable.er
+                    R.drawable.er,
+
                 )
                 contents2 = mutableListOf("오류")
                 contents3 = mutableListOf("데이터 값을 읽어오지 못했습니다.")

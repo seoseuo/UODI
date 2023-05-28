@@ -22,13 +22,14 @@
         >
 
         <TextView
+            android:id="@+id/cName"
             android:layout_marginLeft="20dp"
             android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textSize="25dp"
             android:textColor="@color/bg"
-            android:text="나이키 30% 할인"
+            android:text=""
             android:layout_gravity="center_vertical"
             />
 
@@ -42,7 +43,7 @@
             android:textColor="@color/white"
             android:background="@drawable/button2_bg"
             android:text="사용"
-            android:id="@+id/use"
+            android:id="@+id/useButton"
             android:layout_gravity="center"
             />
     </LinearLayout>

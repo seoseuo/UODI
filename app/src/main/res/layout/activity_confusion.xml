@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/swipeConfuseLayout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:elevation="0dp"
+        app:elevation="0dp"
+        android:id="@+id/appbar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/toolbarColor"
+            >
+
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="300dp"
+                android:layout_height="?attr/actionBarSize"
+                android:id="@+id/toolbar"
+                app:title="CONFUSION" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/logo1"/>
+
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/button_bg"
+        android:elevation="20dp"
+        android:layout_gravity="center">
+
+
+
+        <TextView
+            android:textColor="@color/bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="매장 혼잡도를 알려드릴게요"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_height="5dp"
+        android:background="@drawable/background"/>
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/button_bg"
+        android:elevation="20dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/A0"
+            android:textColor="@color/bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A-0"
+            android:textSize="40dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/A0C"
+            android:layout_marginLeft="20dp"
+            android:textColor="#F44336"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="혼잡"
+            android:textSize="40dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/button_bg"
+        android:elevation="20dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/B0"
+            android:textColor="@color/bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B-0"
+            android:textSize="40dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/B0C"
+            android:layout_marginLeft="20dp"
+            android:textColor="#8BC34A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="보통"
+            android:textSize="40dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/button_bg"
+        android:elevation="20dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/C0"
+            android:textColor="@color/bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C-0"
+            android:textSize="40dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/C0C"
+            android:layout_marginLeft="20dp"
+            android:textColor="#00BCD4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="원활"
+            android:textSize="40dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</LinearLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

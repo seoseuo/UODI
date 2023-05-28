@@ -61,6 +61,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/goToConfuse"
             android:layout_marginTop="20dp"
             android:layout_width="300dp"
             android:layout_height="200dp"
@@ -74,7 +75,7 @@
 
             <TextView
                 android:textColor="@color/bg"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="고객님이 계신 구역은"
@@ -96,6 +97,16 @@
                 android:layout_height="wrap_content"
                 android:text="구역입니다."
                 android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:textColor="@color/toolbarColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text=" 혼잡도 보러가기 >>"
+                android:textSize="15dp"
+                android:layout_marginRight="15dp"
                 android:textStyle="bold"/>
 
         </LinearLayout>

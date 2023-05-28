@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:elevation="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/seolha_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="설화수"
+            android:textColor="@color/bg"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_height="5dp"
+        android:background="@drawable/background"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="3dp"
+        app:contentPadding="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="23년도 신상 화장품"
+                android:textColor="@color/bg"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                    android:layout_width="160dp"
+                    android:layout_height="250dp"
+                    android:orientation="vertical"
+                    tools:ignore="MissingDefaultResource">
+
+                    <ImageView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/sh_2set"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:textColor="@color/bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textStyle="bold"
+                        android:text="자음 2종 세트"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/toolbarColor"
+                        android:text="자음수, 자음유액"/>
+
+                    <TextView
+
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/bg"
+                        android:text="133,000 KRW"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                    android:layout_width="160dp"
+                    android:layout_height="250dp"
+                    android:orientation="vertical"
+                    tools:ignore="MissingDefaultResource">
+
+                    <ImageView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/sh_3set"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:textColor="@color/bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textStyle="bold"
+                        android:text="탄력 3종 세트"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/toolbarColor"
+                        android:text="자음수,자음유액,크림"/>
+
+                    <TextView
+
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/bg"
+                        android:text="180,500 KRW"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                    android:layout_width="160dp"
+                    android:layout_height="250dp"
+                    android:orientation="vertical"
+                    tools:ignore="MissingDefaultResource">
+
+                    <ImageView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/sh_2sets"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:textColor="@color/bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textStyle="bold"
+                        android:text="자음생 2종 세트"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/toolbarColor"
+                        android:text="자음생수,자음유액"/>
+
+                    <TextView
+
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/bg"
+                        android:text="184,500 KRW"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                    android:layout_width="160dp"
+                    android:layout_height="250dp"
+                    android:orientation="vertical"
+                    tools:ignore="MissingDefaultResource">
+
+                    <ImageView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/sh_man"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:textColor="@color/bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textStyle="bold"
+                        android:text="남성 본윤 2종"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/toolbarColor"
+                        android:text="본윤 에센스,본윤 유액"/>
+
+                    <TextView
+
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/bg"
+                        android:text="112,500 KRW"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="설화수 프로모션"
+                    android:textColor="@color/bg"
+                    android:textSize="30dp"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        xmlns:tools="http://schemas.android.com/tools"
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                        android:layout_width="160dp"
+                        android:layout_height="250dp"
+                        android:orientation="vertical"
+                        tools:ignore="MissingDefaultResource">
+
+                        <ImageView
+                            android:layout_marginTop="15dp"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/sh_f"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:layout_marginHorizontal="10dp"
+                            android:textColor="@color/bg"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textStyle="bold"
+                            android:text="퍼펙팅 파우더"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:textColor="@color/toolbarColor"
+                            android:text="파우더 20g"/>
+
+                        <TextView
+
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:textColor="@color/bg"
+                            android:text="20% -> 58,500 KRW"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="160dp"
+                        android:layout_height="250dp"
+                        android:orientation="vertical"
+                        tools:ignore="MissingDefaultResource">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="15dp"
+                            android:src="@drawable/sh_c" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:text="브라이트닝 쿠션"
+                            android:textColor="@color/bg"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:text="자정 브라이트닝 14gX2"
+                            android:textColor="@color/toolbarColor" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:text="15% -> 61,200 KRW"
+                            android:textColor="@color/bg"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+

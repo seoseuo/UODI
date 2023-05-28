@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:elevation="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/tisso_logo" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/hamil_logo" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_height="5dp"
+        android:background="@drawable/background"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="3dp"
+        app:contentPadding="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="TIISO LINE"
+                android:textColor="@color/bg"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+
+                    android:layout_width="160dp"
+                    android:layout_height="250dp"
+                    android:orientation="vertical"
+                    tools:ignore="MissingDefaultResource">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/ts_shu" />
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:textColor="@color/bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textStyle="bold"
+                        android:text="슈망 데 뚜렐"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/toolbarColor"
+                        android:text="파워매틱 80"/>
+
+                    <TextView
+
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/bg"
+                        android:text="1,116,000 KRW"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                    android:layout_width="160dp"
+                    android:layout_height="250dp"
+                    android:orientation="vertical"
+                    tools:ignore="MissingDefaultResource">
+
+                    <ImageView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/ts_h"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:textColor="@color/bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textStyle="bold"
+                        android:text="헤리티지 포르토"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/toolbarColor"
+                        android:text="티쏘 헤리티지 포르토"/>
+
+                    <TextView
+
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/bg"
+                        android:text="548,700 KRW"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                    android:layout_width="160dp"
+                    android:layout_height="250dp"
+                    android:orientation="vertical"
+                    tools:ignore="MissingDefaultResource">
+
+                    <ImageView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/ys_prx"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:textColor="@color/bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textStyle="bold"
+                        android:text="PRX 라이트"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/toolbarColor"
+                        android:text="PRX 라이트 그린"/>
+
+                    <TextView
+
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/bg"
+                        android:text="483,000 KRW"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                    android:layout_width="160dp"
+                    android:layout_height="250dp"
+                    android:orientation="vertical"
+                    tools:ignore="MissingDefaultResource">
+
+                    <ImageView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/ts_ba"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:textColor="@color/bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textStyle="bold"
+                        android:text="바론첼리"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/toolbarColor"
+                        android:text="바론첼리 헤리티지"/>
+
+                    <TextView
+
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textColor="@color/bg"
+                        android:text="1,420,000 KRW"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="HAMILTON LINE"
+                    android:textColor="@color/bg"
+                    android:textSize="30dp"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        xmlns:tools="http://schemas.android.com/tools"
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                        android:layout_width="160dp"
+                        android:layout_height="250dp"
+                        android:orientation="vertical"
+                        tools:ignore="MissingDefaultResource">
+
+                        <ImageView
+                            android:layout_marginTop="15dp"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/hm_jazz"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:layout_marginHorizontal="10dp"
+                            android:textColor="@color/bg"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textStyle="bold"
+                            android:text="재즈마스터"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:textColor="@color/toolbarColor"
+                            android:text="오토 크로노 42mm 블루"/>
+
+                        <TextView
+
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:textColor="@color/bg"
+                            android:text="2,660,000 KRW"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="160dp"
+                        android:layout_height="250dp"
+                        android:orientation="vertical"
+                        tools:ignore="MissingDefaultResource">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="15dp"
+                            android:src="@drawable/hm_kaki" />
+
+                        <TextView
+                            android:layout_marginHorizontal="10dp"
+                            android:textColor="@color/bg"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textStyle="bold"
+                            android:text="카키 필드"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:textColor="@color/toolbarColor"
+                            android:text="오토 42mm 블랙"/>
+
+                        <TextView
+
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:textColor="@color/bg"
+                            android:text="1,060,000 KRW"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+

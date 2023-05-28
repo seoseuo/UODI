@@ -13,7 +13,7 @@ import com.example.uodi.databinding.AroundViewBinding
 class AroundViewHolder(val binding: AroundViewBinding) : RecyclerView.ViewHolder(binding.root)
 
 class AroundAdapter(
-    val mcontext: Context,
+    val mContext: Context,
     val contents1: MutableList<Int>?,
     val contents2: MutableList<String>?,
     val contents3: MutableList<String>?,
@@ -26,10 +26,11 @@ class AroundAdapter(
                 val currentPosition = adapterPosition
                 val sData: String = contents4?.get(currentPosition).toString()
 
-                Log.d("position", "adapterPosition : $sData")
+                Log.d("sData", "가게 정보에 대한 key 값 : $sData")
 
-                val intent = Intent(binding.root.context, MainActivity::class.java)
-                intent.putExtra("position", sData)
+                val intent = Intent(binding.root.context, StoreActivity::class.java)
+                intent.putExtra("sData", sData)
+                intent.putExtra("sectionKey",contents4?.get(0))
                 binding.root.context.startActivity(intent)
             }
         }

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="160dp"
+    android:layout_height="250dp"
+    android:layout_marginLeft="10dp"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:id="@+id/pics"
+        android:layout_marginTop="15dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@color/bg"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/title"
+        android:textColor="@color/bg"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textStyle="bold"
+        android:text="제품명입니다."
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/categorie"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textColor="@color/toolbarColor"
+        android:text="카테고리명입니다."/>
+
+    <TextView
+
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textColor="@color/bg"
+        android:text="가격입니다."
+        android:textStyle="bold"/>
+
+</LinearLayout>
